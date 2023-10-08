@@ -1,0 +1,39 @@
+/* Estilos para centrar el contenido horizontalmente */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor según tus preferencias */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cambia el color de fondo si lo deseas */
+    padding: 20px;
+}
+
+/* Estilos para la imagen */
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056a0;
+}
