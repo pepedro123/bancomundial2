@@ -24,10 +24,12 @@
 /* Estilos para la columna derecha con el texto y los botones */
 .right-column {
     flex: 2;
+    
 }
 
 .right-column p {
     font-size: 18px;
+    
 }
 
 /* Estilos para los botones en dos columnas */
@@ -38,6 +40,8 @@
 .button-column {
     flex: 1;
     margin-right: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 10px;
 }
 
 /* Estilos para los botones */
