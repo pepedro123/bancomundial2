@@ -1,4 +1,21 @@
-/* Estilos para el contenedor principal */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 10px; /* Espacio entre botones */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    font-size: 14px;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -63,6 +80,3 @@ button {
 button:hover {
     background-color: #0056a0;
 }
-
-
-
